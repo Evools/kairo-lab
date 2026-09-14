@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" fill="none">
+  <rect width="800" height="450" fill="#121316"/>
+  <!-- Ambient background glow -->
+  <circle cx="400" cy="225" r="200" fill="rgba(210, 255, 116, 0.06)" filter="blur(60px)"/>
+
+  <!-- Left phone screen (Search & Vacancies) -->
+  <g transform="translate(140, 30)">
+    <!-- Phone frame -->
+    <rect width="240" height="390" rx="32" fill="#18191E" stroke="rgba(255,255,255,0.12)" stroke-width="2"/>
+    <!-- Dynamic island notch -->
+    <rect x="85" y="10" width="70" height="14" rx="7" fill="#0E0E11"/>
+    
+    <!-- App Header -->
+    <text x="24" y="52" fill="#FFFFFF" font-family="'Unbounded', sans-serif" font-weight="700" font-size="14">JoopBar</text>
+    <circle cx="216" cy="48" r="14" fill="#22232A"/>
+    
+    <!-- Search bar -->
+    <rect x="20" y="68" width="200" height="36" rx="10" fill="#22232A"/>
+    <text x="36" y="90" fill="rgba(255,255,255,0.5)" font-family="sans-serif" font-size="11">Поиск вакансий в КР...</text>
+    
+    <!-- Tags -->
+    <rect x="20" y="112" width="60" height="22" rx="11" fill="rgba(210, 255, 116, 0.15)"/>
+    <text x="30" y="127" fill="#D2FF74" font-family="sans-serif" font-weight="600" font-size="10">Все (2.4k)</text>
+    <rect x="86" y="112" width="46" height="22" rx="11" fill="#22232A"/>
+    <text x="96" y="127" fill="rgba(255,255,255,0.6)" font-family="sans-serif" font-size="10">IT (420)</text>
+    <rect x="138" y="112" width="60" height="22" rx="11" fill="#22232A"/>
+    <text x="148" y="127" fill="rgba(255,255,255,0.6)" font-family="sans-serif" font-size="10">Дизайн</text>
+
+    <!-- Job Card 1 -->
+    <rect x="20" y="146" width="200" height="96" rx="14" fill="#202128" stroke="rgba(255,255,255,0.06)"/>
+    <text x="32" y="172" fill="#FFFFFF" font-family="sans-serif" font-weight="700" font-size="13">Senior UI Designer</text>
+    <text x="32" y="190" fill="rgba(255,255,255,0.5)" font-family="sans-serif" font-size="11">Fintech Group • Бишкек</text>
+    <rect x="32" y="204" width="76" height="20" rx="10" fill="rgba(210, 255, 116, 0.15)"/>
+    <text x="40" y="218" fill="#D2FF74" font-family="sans-serif" font-weight="700" font-size="10">$1,800 - $2,500</text>
+
+    <!-- Job Card 2 -->
+    <rect x="20" y="252" width="200" height="96" rx="14" fill="#202128" stroke="rgba(255,255,255,0.06)"/>
+    <text x="32" y="278" fill="#FFFFFF" font-family="sans-serif" font-weight="700" font-size="13">Frontend Developer</text>
+    <text x="32" y="296" fill="rgba(255,255,255,0.5)" font-family="sans-serif" font-size="11">Tech Studio • Удаленно</text>
+    <rect x="32" y="310" width="76" height="20" rx="10" fill="rgba(255, 255, 255, 0.08)"/>
+    <text x="40" y="324" fill="#FFFFFF" font-family="sans-serif" font-weight="600" font-size="10">от 120 000 KGS</text>
+
+    <!-- Bottom Navigation Bar -->
+    <rect x="20" y="356" width="200" height="26" rx="8" fill="#141518"/>
+    <circle cx="50" cy="369" r="4" fill="#D2FF74"/>
+    <circle cx="100" cy="369" r="4" fill="rgba(255,255,255,0.3)"/>
+    <circle cx="150" cy="369" r="4" fill="rgba(255,255,255,0.3)"/>
+    <circle cx="190" cy="369" r="4" fill="rgba(255,255,255,0.3)"/>
+  </g>
+
+  <!-- Right phone screen (Candidate Profile & Apply) -->
+  <g transform="translate(420, 30)">
+    <!-- Phone frame -->
+    <rect width="240" height="390" rx="32" fill="#18191E" stroke="rgba(255,255,255,0.12)" stroke-width="2"/>
+    <!-- Dynamic island notch -->
+    <rect x="85" y="10" width="70" height="14" rx="7" fill="#0E0E11"/>
+
+    <!-- Screen Title -->
+    <text x="24" y="52" fill="#FFFFFF" font-family="sans-serif" font-weight="700" font-size="13">Детали вакансии</text>
+    
+    <!-- Company Header -->
+    <rect x="20" y="68" width="200" height="70" rx="14" fill="#202128"/>
+    <circle cx="48" cy="103" r="18" fill="#2A2B34"/>
+    <text x="76" y="98" fill="#FFFFFF" font-family="sans-serif" font-weight="700" font-size="12">Lead UX/UI Architect</text>
+    <text x="76" y="114" fill="#D2FF74" font-family="sans-serif" font-weight="600" font-size="11">от $2,000 • Full-time</text>
+
+    <!-- Requirements Card -->
+    <rect x="20" y="148" width="200" height="140" rx="14" fill="#202128"/>
+    <text x="32" y="172" fill="rgba(255,255,255,0.6)" font-family="sans-serif" font-size="10">ТРЕБОВАНИЯ</text>
+    <text x="32" y="196" fill="#FFFFFF" font-family="sans-serif" font-size="11">• Опыт работы в Figma от 3 лет</text>
+    <text x="32" y="218" fill="#FFFFFF" font-family="sans-serif" font-size="11">• Понимание верстки и CSS</text>
+    <text x="32" y="240" fill="#FFFFFF" font-family="sans-serif" font-size="11">• Проектирование дизайн-систем</text>
+    <text x="32" y="262" fill="#FFFFFF" font-family="sans-serif" font-size="11">• Портфолио реальных кейсов</text>
+
+    <!-- Quick Apply Button -->
+    <rect x="20" y="304" width="200" height="42" rx="21" fill="#D2FF74"/>
+    <text x="76" y="330" fill="#18181B" font-family="sans-serif" font-weight="700" font-size="12">Откликнуться резюме</text>
+
+    <!-- Bottom Indicator -->
+    <rect x="90" y="372" width="60" height="4" rx="2" fill="rgba(255,255,255,0.2)"/>
+  </g>
+</svg>

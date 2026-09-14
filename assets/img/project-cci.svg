@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" fill="none">
+  <rect width="800" height="450" fill="#0F1318"/>
+  <!-- Top browser bar -->
+  <rect x="0" y="0" width="800" height="52" fill="#171C24"/>
+  <circle cx="32" cy="26" r="5" fill="#FF5F56"/>
+  <circle cx="48" cy="26" r="5" fill="#FFBD2E"/>
+  <circle cx="64" cy="26" r="5" fill="#27C93F"/>
+  <text x="96" y="32" fill="#FFFFFF" font-family="'Unbounded', sans-serif" font-weight="700" font-size="13">CCI KR • ТПП КЫРГЫЗСКОЙ РЕСПУБЛИКИ</text>
+  <rect x="650" y="16" width="114" height="20" rx="10" fill="rgba(255, 255, 255, 0.08)"/>
+  <text x="664" y="30" fill="#FFFFFF" font-family="sans-serif" font-weight="600" font-size="10">ОФИЦИАЛЬНО</text>
+
+  <!-- Hero Banner on Page -->
+  <rect x="40" y="74" width="720" height="130" rx="14" fill="#1A212B" stroke="rgba(255,255,255,0.08)"/>
+  <rect x="64" y="96" width="80" height="20" rx="6" fill="rgba(210, 255, 116, 0.15)"/>
+  <text x="74" y="110" fill="#D2FF74" font-family="sans-serif" font-weight="700" font-size="10">ДЕЛОВОЙ СЕКТОР</text>
+  <text x="64" y="145" fill="#FFFFFF" font-family="'Unbounded', sans-serif" font-weight="700" font-size="20">Развитие торговли и поддержка бизнеса КР</text>
+  <text x="64" y="174" fill="rgba(255,255,255,0.6)" font-family="sans-serif" font-size="12">Информационная платформа Торгово-промышленной палаты Кыргызской Республики</text>
+
+  <!-- 3 Service Columns -->
+  <rect x="40" y="224" width="226" height="186" rx="12" fill="#171C24" stroke="rgba(255,255,255,0.06)"/>
+  <circle cx="72" cy="256" r="16" fill="rgba(210, 255, 116, 0.12)"/>
+  <text x="66" y="261" fill="#D2FF74" font-family="sans-serif" font-weight="700" font-size="13">§</text>
+  <text x="64" y="296" fill="#FFFFFF" font-family="sans-serif" font-weight="700" font-size="14">Реестр членов</text>
+  <text x="64" y="324" fill="rgba(255,255,255,0.5)" font-family="sans-serif" font-size="11">Каталог аккредитованных компаний и экспортеров Кыргызстана</text>
+  <text x="64" y="380" fill="#D2FF74" font-family="sans-serif" font-weight="600" font-size="11">Открыть реестр →</text>
+
+  <rect x="286" y="224" width="228" height="186" rx="12" fill="#171C24" stroke="rgba(255,255,255,0.06)"/>
+  <circle cx="318" cy="256" r="16" fill="rgba(255, 255, 255, 0.08)"/>
+  <text x="312" y="261" fill="#FFFFFF" font-family="sans-serif" font-weight="700" font-size="13">✉</text>
+  <text x="310" y="296" fill="#FFFFFF" font-family="sans-serif" font-weight="700" font-size="14">Экспертиза &amp; Сертификаты</text>
+  <text x="310" y="324" fill="rgba(255,255,255,0.5)" font-family="sans-serif" font-size="11">Выдача сертификатов происхождения товаров СТ-1, экспертиза контрактов</text>
+  <text x="310" y="380" fill="#FFFFFF" font-family="sans-serif" font-weight="600" font-size="11">Услуги палаты →</text>
+
+  <rect x="534" y="224" width="226" height="186" rx="12" fill="#171C24" stroke="rgba(255,255,255,0.06)"/>
+  <circle cx="566" cy="256" r="16" fill="rgba(255, 255, 255, 0.08)"/>
+  <text x="560" y="261" fill="#FFFFFF" font-family="sans-serif" font-weight="700" font-size="13">⚖</text>
+  <text x="558" y="296" fill="#FFFFFF" font-family="sans-serif" font-weight="700" font-size="14">Международные миссии</text>
+  <text x="558" y="324" fill="rgba(255,255,255,0.5)" font-family="sans-serif" font-size="11">Деловые поездки, выставки, B2B-переговоры и экспортные форумы</text>
+  <text x="558" y="380" fill="#FFFFFF" font-family="sans-serif" font-weight="600" font-size="11">Календарь событий →</text>
+</svg>
