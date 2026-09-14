@@ -56,6 +56,9 @@
   display: inline-block;
   color: var(--accent);
   position: relative;
+  vertical-align: baseline;
+  min-width: 12ch;
+  white-space: nowrap;
 }
 
 .hero__glitch.out {
