@@ -24,14 +24,11 @@
   background: var(--accent);
   color: var(--accent-contrast);
   border-color: var(--accent);
-  box-shadow: 0 4px 20px rgba(210, 255, 116, 0.25);
 }
 
 .btn--primary:hover {
   background: var(--accent-hover);
   border-color: var(--accent-hover);
-  box-shadow: 0 6px 28px rgba(210, 255, 116, 0.4);
-  transform: translateY(-2px);
 }
 
 /* Secondary Ghost Glass Button */
@@ -45,7 +42,6 @@
 .btn--secondary:hover {
   background: rgba(255, 255, 255, 0.1);
   border-color: rgba(255, 255, 255, 0.25);
-  transform: translateY(-2px);
 }
 
 /* Small Button (for nav/cards) */
@@ -55,11 +51,6 @@
   font-weight: 600;
 }
 
-/* Icon rotation / arrow translation on hover */
 .btn .btn-arrow {
-  transition: transform 0.2s ease;
-}
-
-.btn:hover .btn-arrow {
-  transform: translateX(4px);
+  display: inline-block;
 }

@@ -55,7 +55,6 @@
 .contact__method:hover {
   background: rgba(255, 255, 255, 0.07);
   border-color: rgba(255, 255, 255, 0.2);
-  transform: translateX(4px);
 }
 
 .contact__method-left {

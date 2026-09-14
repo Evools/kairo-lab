@@ -54,8 +54,6 @@
 
 .project-card:hover {
   border-color: var(--dark-border-hover);
-  transform: translateY(-6px);
-  box-shadow: 0 24px 48px rgba(0, 0, 0, 0.5);
 }
 
 .project-card__thumb {
@@ -73,11 +71,6 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
-  transition: transform 0.5s cubic-bezier(0.16, 1, 0.3, 1);
-}
-
-.project-card:hover .project-card__mockup {
-  transform: scale(1.04);
 }
 
 .project-card__badge-top {
