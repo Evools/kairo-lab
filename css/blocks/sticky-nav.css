@@ -79,6 +79,7 @@
     padding: 0 16px;
     overflow-x: auto;
     scrollbar-width: none;
+    -webkit-overflow-scrolling: touch;
   }
 
   .sticky-nav__inner::-webkit-scrollbar {
@@ -86,12 +87,15 @@
   }
 
   .sticky-nav__link {
-    padding: 6px 10px;
-    font-size: 12px;
+    padding: 6px 12px;
+    font-size: 12.5px;
+    flex-shrink: 0;
   }
 
   .sticky-nav__link--cta {
-    margin-left: 12px;
+    margin-left: 8px;
     padding: 6px 14px;
+    flex-shrink: 0;
   }
 }
+
