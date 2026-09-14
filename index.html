@@ -98,21 +98,30 @@
             </div>
           </div>
 
-          <!-- Specialization & Stack Card -->
+          <!-- Specialization & Stack Card (Redesigned Variant) -->
           <aside class="hero__panel">
             <div class="hero__panel-header">
-              <span class="hero__panel-title">Специализация &amp; Опыт</span>
-              <span class="badge badge--accent">С 2016 ГОДА</span>
+              <span class="hero__panel-title">KAIRO LAB // SPEC</span>
+              <span class="hero__panel-status">
+                <span class="pill__dot"></span>
+                <span>Доступен</span>
+              </span>
             </div>
 
             <div class="hero__spec-item">
               <span class="hero__spec-label">Компетенции</span>
-              <span class="hero__spec-value">UI/UX Дизайн &amp; Фронтенд-разработка</span>
+              <span class="hero__spec-value">UI/UX Дизайн &amp; Frontend Инженерия</span>
             </div>
 
             <div class="hero__spec-item">
               <span class="hero__spec-label">Ключевой стек</span>
-              <span class="hero__spec-value">Figma ➔ React / Next.js ➔ TypeScript ➔ Tauri</span>
+              <div class="hero__stack-chips">
+                <span class="hero__stack-chip hero__stack-chip--accent">Figma</span>
+                <span class="hero__stack-chip">React</span>
+                <span class="hero__stack-chip">Next.js</span>
+                <span class="hero__stack-chip">TypeScript</span>
+                <span class="hero__stack-chip">Tauri</span>
+              </div>
             </div>
 
             <div class="hero__spec-item">
@@ -131,11 +140,14 @@
               </div>
             </div>
 
-            <a href="https://t.me/web_commander" target="_blank" rel="noopener noreferrer" class="btn btn--primary btn--sm"
-              style="width: 100%; margin-top: 6px;">
-              <span>Написать в Telegram</span>
-              <span class="btn-arrow">→</span>
-            </a>
+            <div class="hero__panel-footer">
+              <a href="https://t.me/web_commander" target="_blank" rel="noopener noreferrer" class="btn btn--primary btn--sm"
+                style="width: 100%;">
+                <span>Написать в Telegram</span>
+                <span class="btn-arrow">→</span>
+              </a>
+              <span class="hero__panel-reassurance">Прямой контакт • Ответ в течение 1–2 часов</span>
+            </div>
           </aside>
 
         </div>
@@ -261,20 +273,55 @@
 
         </div>
 
-        <!-- Wide Banner -->
+        <!-- Redesigned Studio Action Banner -->
         <div class="approach__banner">
-          <div class="approach__banner-left">
-            <div class="approach__banner-text">
-              От концепта в Figma — <em>до работающего кода.</em>
+          <div class="approach__banner-main">
+            <div class="approach__banner-tag">
+              <span class="pill__dot"></span>
+              <span>ПРЯМОЙ ЦИКЛ РАЗРАБОТКИ</span>
             </div>
-            <div class="approach__banner-desc">
-              Чистая компонентная архитектура, адаптивность и надежный фронтенд без лишних посредников и потери времени.
+
+            <h3 class="approach__banner-title">
+              От первого экрана в Figma — <em>к живому коду в продакшене</em>
+            </h3>
+
+            <p class="approach__banner-desc">
+              Беру проект целиком: проектирую удобные пользовательские сценарии, собираю дизайн-систему и сам реализую чистый, быстрый фронтенд. Без потери контекста и сотен часов на споры.
+            </p>
+
+            <div class="approach__banner-features">
+              <div class="banner-feature">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                <span>Точность макета 1 к 1</span>
+              </div>
+              <div class="banner-feature">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                <span>0 часов на споры дизайнера и верстальщика</span>
+              </div>
+              <div class="banner-feature">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                <span>Запуск в 2 раза быстрее</span>
+              </div>
             </div>
           </div>
-          <a href="#contact" class="btn btn--primary btn--sm approach__banner-btn">
-            <span>Обсудить задачу</span>
-            <span class="btn-arrow">→</span>
-          </a>
+
+          <div class="approach__banner-cta">
+            <div class="banner-cta__card">
+              <span class="banner-cta__label">Прямой контакт</span>
+              <div class="banner-cta__val">@web_commander</div>
+              <a href="https://t.me/web_commander" target="_blank" rel="noopener noreferrer" class="btn btn--primary btn--sm" style="width: 100%;">
+                <span>Написать в Telegram</span>
+                <span class="btn-arrow">→</span>
+              </a>
+              <span class="banner-cta__hint">Ответ в течение 1–2 часов</span>
+            </div>
+          </div>
         </div>
 
       </div>
