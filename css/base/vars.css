@@ -1,32 +1,31 @@
 :root {
-  /* Light Theme Surfaces (Reference: WebCademy SDD) */
-  --bg: #F7F6F2;
-  --surface: #EDECEA;
-  --surface-hover: #E4E2DC;
-  --white: #FFFFFF;
-  --border: rgba(24, 24, 27, 0.1);
-  --border-subtle: rgba(24, 24, 27, 0.06);
-
-  /* Dark Theme Surfaces (Hero & CTA) */
+  /* Dark Theme Default (Base of the whole site) */
   --black: #0E0E10;
   --dark: #18181B;
   --dark2: #27272A;
   --dark3: #222225;
+  --dark-surface: #18181B;
   --dark-border: rgba(255, 255, 255, 0.1);
   --dark-border-hover: rgba(255, 255, 255, 0.2);
+
+  /* Typography Colors for Dark Theme */
+  --text: #FFFFFF;
+  --text-muted: rgba(255, 255, 255, 0.65);
+  --text-subtle: rgba(255, 255, 255, 0.4);
+
+  /* Light Section Tokens (Reference: WebCademy SDD) */
+  --bg-light: #F7F6F2;
+  --surface-light: #EDECEA;
+  --surface-light-hover: #E4E2DC;
+  --text-dark: #18181B;
+  --muted-dark: #555451;
+  --border-light: rgba(24, 24, 27, 0.1);
 
   /* Electric Accent (Acid Lime) */
   --accent: #D2FF74;
   --accent-hover: #C5F55A;
   --accent-glow: rgba(210, 255, 116, 0.18);
   --accent-contrast: #18181B;
-
-  /* Typography Colors */
-  --text: #18181B;
-  --muted: #555451;
-  --text-light: #FFFFFF;
-  --text-light-muted: rgba(255, 255, 255, 0.65);
-  --text-light-subtle: rgba(255, 255, 255, 0.4);
 
   /* Fonts */
   --font-display: 'Unbounded', sans-serif;
@@ -36,5 +35,10 @@
   --radius: 20px;
   --radius-sm: 12px;
   --radius-pill: 9999px;
-  --container-max: 1160px;
+  --container-max: 1120px;
+
+  /* Fluid typography */
+  --h1-size: clamp(2.4rem, 5.5vw, 4.4rem);
+  --h2-size: clamp(1.8rem, 3.5vw, 2.8rem);
+  --h3-size: clamp(1.3rem, 2.2vw, 1.8rem);
 }

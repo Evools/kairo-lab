@@ -1,8 +1,9 @@
 .pain-card {
-  background: var(--surface);
+  background: var(--surface-light);
   border-radius: var(--radius);
   padding: 32px 28px;
-  border: 1px solid var(--border);
+  border: 1px solid var(--border-light);
+  color: var(--text-dark);
   position: relative;
   overflow: hidden;
   transition: transform 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease;
@@ -36,6 +37,10 @@
   margin-bottom: 20px;
 }
 
+.pain-card__icon--circle {
+  border-radius: 50%;
+}
+
 .pain-card--dark .pain-card__icon {
   background: rgba(255, 255, 255, 0.1);
   color: var(--accent);
@@ -46,11 +51,12 @@
   font-weight: 700;
   margin-bottom: 12px;
   letter-spacing: -0.01em;
+  color: inherit;
 }
 
 .pain-card__desc {
   font-size: 14px;
-  color: var(--muted);
+  color: var(--muted-dark);
   line-height: 1.65;
 }
 
