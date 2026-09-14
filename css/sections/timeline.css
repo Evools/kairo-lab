@@ -1,7 +1,7 @@
 .experience.section-light {
   background: var(--bg-light);
   color: var(--text-dark);
-  padding: 72px 0;
+  padding: 80px 0;
   border-bottom: 1px solid var(--border-light);
   position: relative;
   z-index: 2;
@@ -10,41 +10,67 @@
 .experience .timeline {
   display: flex;
   flex-direction: column;
-  gap: 20px;
-  max-width: 920px;
-  margin-top: 40px;
+  gap: 24px;
+  width: 100%;
+  margin-top: 48px;
 }
 
 .experience .timeline-item {
   display: grid;
-  grid-template-columns: 220px 1fr;
-  gap: 32px;
+  grid-template-columns: 280px 1fr;
+  gap: 48px;
   background: var(--surface-light);
   border: 1px solid var(--border-light);
   border-radius: var(--radius);
-  padding: 32px;
-  transition: all 0.25s ease;
+  padding: 40px 44px;
+  transition: border-color 0.25s ease;
+  position: relative;
 }
 
 .experience .timeline-item:hover {
-  border-color: rgba(24, 24, 27, 0.22);
+  border-color: rgba(24, 24, 27, 0.25);
 }
 
 .experience .timeline-item__period {
   display: flex;
   flex-direction: column;
+  gap: 8px;
+  border-right: 1px solid rgba(24, 24, 27, 0.08);
+  padding-right: 36px;
+}
+
+.experience .timeline-item__status {
+  display: inline-flex;
+  align-items: center;
   gap: 6px;
+  font-size: 11px;
+  font-weight: 700;
+  color: #18181B;
+  background: var(--accent);
+  padding: 4px 10px;
+  border-radius: 99px;
+  width: fit-content;
+  margin-bottom: 6px;
+  letter-spacing: 0.02em;
+}
+
+.experience .timeline-item__status-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #18181B;
 }
 
 .experience .timeline-item__date {
   font-family: var(--font-display);
-  font-size: 13px;
+  font-size: 15px;
   font-weight: 800;
   color: var(--text-dark);
+  letter-spacing: -0.01em;
 }
 
 .experience .timeline-item__company {
-  font-size: 15px;
+  font-size: 17px;
   font-weight: 700;
   color: var(--text-dark);
 }
@@ -52,25 +78,30 @@
 .experience .timeline-item__location {
   font-size: 13px;
   color: var(--muted-dark);
+  line-height: 1.4;
 }
 
 .experience .timeline-item__content {
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 
 .experience .timeline-item__role {
-  font-size: 20px;
+  font-family: var(--font-display);
+  font-size: 21px;
   font-weight: 800;
   color: var(--text-dark);
-  margin-bottom: 10px;
+  letter-spacing: -0.015em;
+  margin-bottom: 12px;
 }
 
 .experience .timeline-item__desc {
-  font-size: 14px;
+  font-size: 15px;
   color: var(--muted-dark);
   line-height: 1.65;
-  margin-bottom: 18px;
+  margin-bottom: 22px;
+  max-width: 680px;
 }
 
 .experience .timeline-item__tags {
@@ -83,13 +114,22 @@
   background: #FFFFFF;
   border: 1px solid var(--border-light);
   color: var(--text-dark);
+  font-size: 12px;
   font-weight: 600;
+  padding: 6px 14px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 860px) {
   .experience .timeline-item {
     grid-template-columns: 1fr;
-    gap: 16px;
-    padding: 24px 20px;
+    gap: 20px;
+    padding: 28px 24px;
+  }
+
+  .experience .timeline-item__period {
+    border-right: none;
+    border-bottom: 1px solid rgba(24, 24, 27, 0.08);
+    padding-right: 0;
+    padding-bottom: 18px;
   }
 }
