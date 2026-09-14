@@ -211,11 +211,11 @@
             <div class="approach-pipeline">
               <div class="approach-pipeline__item approach-pipeline__item--bad">
                 <div class="approach-pipeline__badge">Классический найм (2 подрядчика)</div>
-                <div class="approach-pipeline__flow">Дизайнер ➔ Правки ➔ Верстальщик ➔ Споры ➔ 4–6 недель ❌</div>
+                <div class="approach-pipeline__flow">Дизайнер ➔ Правки ➔ Верстальщик ➔ Споры ➔ 4–6 недель (потери)</div>
               </div>
               <div class="approach-pipeline__item approach-pipeline__item--good">
                 <div class="approach-pipeline__badge">Подход KAIRO LAB (Дизайн + Код)</div>
-                <div class="approach-pipeline__flow">Архитектура ➔ UI в Figma ➔ Frontend в коде ➔ Релиз x2 быстрее ✅</div>
+                <div class="approach-pipeline__flow">Архитектура ➔ UI в Figma ➔ Frontend в коде ➔ Релиз x2 быстрее</div>
               </div>
             </div>
           </div>
@@ -431,91 +431,58 @@
     <!-- ===================================================================== -->
     <!-- STACK & TECHNOLOGIES (WEBCADEMY SDD ARCHITECTURE)                     -->
     <!-- ===================================================================== -->
-    <section class="skills" id="skills" aria-label="Стек и технологии">
+    <!-- ===================================================================== -->
+    <!-- STACK & TECHNOLOGIES (EXACT MATCH TO REFERENCE SCREENSHOT 1)          -->
+    <!-- ===================================================================== -->
+    <section class="skills section-light" id="skills" aria-label="Стек и технологии">
       <div class="container">
-        <div class="section-header">
-          <span class="section-tag">Стек &amp; Технологии</span>
-          <h2 class="section-title">Инструменты, на которых создается результат</h2>
-          <p class="section-subtitle">
-            Только проверенные инструменты, обеспечивающие высокую скорость работы, масштабируемость и визуальное совершенство.
-          </p>
-        </div>
+        
+        <div class="section__label">ТЕХНОЛОГИИ</div>
+        <h2 class="section__title">Технический <span class="title-pill">стек</span></h2>
+        <p class="section__desc">
+          Никаких лишних надстроек и магии под капотом. Только проверенные инструменты, которые дают максимальную производительность, точность и надежность.
+        </p>
 
-        <div class="stack__grid">
+        <!-- 3 Dark Cards on Light Section (Reference Image 1) -->
+        <div class="stack-tech__grid">
 
-          <!-- Stack Card 1: UI/UX Design -->
-          <div class="stack-card">
-            <div class="stack-card__icon">
-              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M12 19l7-7 3 3-7 7-3-3z"></path>
-                <path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"></path>
-                <path d="M2 2l7.586 7.586"></path>
-                <circle cx="11" cy="11" r="2"></circle>
-              </svg>
+          <!-- Card 1: UI/UX & Figma -->
+          <div class="stack-tech__card">
+            <div class="stack-tech__badge">
+              <span>FIGMA</span>
+              <span>UI</span>
             </div>
-            <div class="stack-card__label">UI/UX Проектирование</div>
-            <h3 class="stack-card__title">Figma, Дизайн-системы &amp; Прототипы</h3>
-            <p class="stack-card__desc">
-              Проектирование пользовательских сценариев любой сложности. Создание <em>масштабируемых UI-китов, Auto-Layout компонентов и дизайн-токенов</em>, готовых к точной верстке без догадок и разногласий.
+            <div class="stack-tech__label">UI/UX &amp; ПРОЕКТИРОВАНИЕ</div>
+            <h3 class="stack-tech__title">Дизайн-системы и макеты</h3>
+            <p class="stack-tech__desc">
+              Проектирование пользовательских сценариев любой сложности. Создание масштабируемых UI-китов, Auto-Layout компонентов и дизайн-токенов, готовых к точной верстке без догадок и разногласий.
             </p>
-            <div class="stack-card__badges">
-              <span class="badge badge--accent">Figma</span>
-              <span class="badge">Auto-Layout</span>
-              <span class="badge">Design Systems</span>
-              <span class="badge">Variables</span>
-              <span class="badge">CJM</span>
-            </div>
           </div>
 
-          <!-- Stack Card 2: Front-end & Desktop Dev -->
-          <div class="stack-card">
-            <div class="stack-card__icon">
-              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <polyline points="16 18 22 12 16 6"></polyline>
-                <polyline points="8 6 2 12 8 18"></polyline>
-              </svg>
+          <!-- Card 2: React & TypeScript -->
+          <div class="stack-tech__card">
+            <div class="stack-tech__badge">
+              <span>REACT</span>
+              <span>TS</span>
             </div>
-            <div class="stack-card__label">Front-end &amp; Приложения</div>
-            <h3 class="stack-card__title">React, TypeScript, Next.js &amp; Tauri</h3>
-            <p class="stack-card__desc">
-              Современная компонентная архитектура и <em>высокопроизводительный фронтенд</em>. Разработка веб-приложений на React и Next.js, строгая типизация в TypeScript и создание быстрых, легковесных десктопных приложений с помощью Tauri.
+            <div class="stack-tech__label">FRONT-END РАЗРАБОТКА</div>
+            <h3 class="stack-tech__title">React &amp; TypeScript</h3>
+            <p class="stack-tech__desc">
+              Современная компонентная архитектура, строгая типизация в TypeScript и быстрый веб на Next.js. Чистый модульный код, надежное управление состоянием и интерфейсы на 60 FPS.
             </p>
-            <div class="stack-card__badges">
-              <span class="badge badge--accent">React</span>
-              <span class="badge">TypeScript</span>
-              <span class="badge">Next.js</span>
-              <span class="badge">Tauri</span>
-              <span class="badge">Modern CSS / HTML5</span>
-            </div>
           </div>
 
-          <!-- Stack Card 3: Real Tools & Workflow -->
-          <div class="stack-card">
-            <div class="stack-card__icon">
-              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <line x1="4" y1="21" x2="4" y2="14"></line>
-                <line x1="4" y1="10" x2="4" y2="3"></line>
-                <line x1="12" y1="21" x2="12" y2="12"></line>
-                <line x1="12" y1="8" x2="12" y2="3"></line>
-                <line x1="20" y1="21" x2="20" y2="16"></line>
-                <line x1="20" y1="12" x2="20" y2="3"></line>
-                <line x1="1" y1="14" x2="7" y2="14"></line>
-                <line x1="9" y1="8" x2="15" y2="8"></line>
-                <line x1="17" y1="16" x2="23" y2="16"></line>
-              </svg>
+          <!-- Card 3: Tauri & Apps -->
+          <div class="stack-tech__card">
+            <div class="stack-tech__badge">
+              <span>TAURI</span>
+              <span>NEXT</span>
             </div>
-            <div class="stack-card__label">Инструменты &amp; Процесс</div>
-            <h3 class="stack-card__title">Git, Vite, DevTools &amp; Верстка</h3>
-            <p class="stack-card__desc">
-              Контроль версий в <em>Git и GitHub</em>, быстрая сборка проектов на Vite. Аккуратная организация файлов, оптимизация графики (WebP, SVG) и тестирование на реальных смартфонах и браузерах, чтобы сайт открывался быстро и без сбоев.
+            <div class="stack-tech__label">ПРИЛОЖЕНИЯ &amp; ДЕСКТОП</div>
+            <h3 class="stack-tech__title">Tauri &amp; Web-сервисы</h3>
+            <p class="stack-tech__desc">
+              Создание легковесных и быстрых десктопных приложений на базе web-технологий. Интеграция с нативными API системы, высокая безопасность и минимальное потребление ресурсов.
             </p>
-            <div class="stack-card__badges">
-              <span class="badge badge--accent">Git / GitHub</span>
-              <span class="badge">Vite</span>
-              <span class="badge">Chrome DevTools</span>
-              <span class="badge">Pixel Perfect</span>
-              <span class="badge">Адаптив</span>
-            </div>
           </div>
 
         </div>
@@ -523,16 +490,82 @@
     </section>
 
     <!-- ===================================================================== -->
-    <!-- EXPERIENCE / TIMELINE (LIGHT SECTION - EXACT MATCH TO APPROACH BLOCK) -->
+    <!-- AUTHOR & EXPERIENCE (EXACT MATCH TO REFERENCE SCREENSHOT 2)           -->
     <!-- ===================================================================== -->
     <section class="experience section-light" id="experience" aria-label="Опыт и путь">
       <div class="container">
         
-        <div class="section__label">КАРЬЕРНЫЙ ПУТЬ</div>
-        <h2 class="section__title">Опыт и ключевой подход</h2>
+        <div class="section__label">АВТОР</div>
+        <h2 class="section__title">Кто стоит за <span class="title-pill">проектами</span></h2>
         <p class="section__desc">
           В чем преимущество разработчика, который мыслит как дизайнер, и дизайнера, который знает, как устроен DOM?
         </p>
+
+        <!-- Author Grid: Left Portrait Photo + Right Bio & Quote Cards (Reference Image 2) -->
+        <div class="author__grid">
+          
+          <!-- Left: Portrait Photo -->
+          <div class="author__photo-wrap">
+            <img src="./assets/img/author-portrait.jpg" alt="Виктор Вопольский — Lead Design Engineer" class="author__photo" loading="lazy">
+          </div>
+
+          <!-- Right: Details & Quote -->
+          <div class="author__details">
+            
+            <!-- Bio Card (Light Surface) -->
+            <div class="author__bio-card">
+              <h3 class="author__name">Виктор Вопольский</h3>
+              <div class="author__role">Lead Design Engineer &amp; Frontend Developer</div>
+              
+              <p class="author__bio-text">
+                Специализируюсь на проектировании и разработке современных сайтов, веб-приложений и мобильных интерфейсов — от анализа требований и архитектуры до финального UI и реализации в коде.
+              </p>
+              <p class="author__bio-text" style="margin-top: 10px;">
+                8+ лет практики в индустрии. Выпускник Лицея №98 (Бишкек, 2018). Участвовал в создании ключевых решений для Международного аэропорта «Манас», Торгово-промышленной палаты КР, мобильного сервиса поиска работы JoopBar и платформы AWA-KG.
+              </p>
+
+              <!-- 3 Stat Blocks -->
+              <div class="author__stats">
+                <div class="author__stat">
+                  <div class="author__stat-num">8+</div>
+                  <div class="author__stat-label">лет опыта в IT и вебе</div>
+                </div>
+                <div class="author__stat">
+                  <div class="author__stat-num">1:1</div>
+                  <div class="author__stat-label">перенос макета в код</div>
+                </div>
+                <div class="author__stat">
+                  <div class="author__stat-num">Манас</div>
+                  <div class="author__stat-label">проекты нац. масштаба</div>
+                </div>
+              </div>
+
+              <!-- Tech Chips -->
+              <div class="author__tags">
+                <span class="author__tag">React</span>
+                <span class="author__tag">TypeScript</span>
+                <span class="author__tag">Next.js</span>
+                <span class="author__tag">Tauri</span>
+                <span class="author__tag">Figma</span>
+                <span class="author__tag">UI/UX Дизайн</span>
+              </div>
+            </div>
+
+            <!-- Quote Card (Dark Surface) -->
+            <div class="author__quote-card">
+              <div class="author__quote-label">мой подход</div>
+              <div class="author__quote-text">
+                Объединяю UX-архитектуру и чистый код в одних руках. Это исключает испорченный телефон и позволяет запускать готовые продукты в два раза быстрее.
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+        <div style="margin-top: 56px;">
+          <div class="section__label" style="background: rgba(24, 24, 27, 0.08); color: var(--text-dark);">КАРЬЕРНЫЙ ПУТЬ</div>
+        </div>
 
         <div class="timeline">
 
