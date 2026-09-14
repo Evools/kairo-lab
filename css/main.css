@@ -13,7 +13,6 @@
 @import url('./blocks/pills.css');
 @import url('./blocks/btn.css');
 @import url('./blocks/card.css');
-@import url('./blocks/stack-card.css');
 @import url('./blocks/pain-card.css');
 @import url('./blocks/faq-item.css');
 @import url('./blocks/badges.css');
@@ -22,7 +21,6 @@
 @import url('./sections/hero.css');
 @import url('./sections/pain.css');
 @import url('./sections/projects.css');
-@import url('./sections/skills.css');
 @import url('./sections/author.css');
 @import url('./sections/timeline.css');
 @import url('./sections/contact.css');
