@@ -43,17 +43,94 @@
   <!-- Subtle background ambient grid -->
   <div class="bg-grid" aria-hidden="true"></div>
 
-  <!-- Full-Width Sticky Navigation (Exact Match: WebCademy SDD Image 1) -->
+  <!-- Full-Width Sticky Navigation with Mobile Drawer -->
   <header>
     <nav class="sticky-nav" aria-label="Основная навигация">
       <div class="sticky-nav__inner">
-        <a class="sticky-nav__link active" href="#approach">Подход</a>
-        <a class="sticky-nav__link" href="#projects">Проекты</a>
-        <a class="sticky-nav__link" href="#experience">Опыт</a>
-        <a class="sticky-nav__link" href="#contact">Контакты</a>
-        <a class="sticky-nav__link sticky-nav__link--cta" href="#contact">Обсудить проект →</a>
+        
+        <!-- Brand Logo -->
+        <a href="#hero" class="sticky-nav__brand">
+          <span class="sticky-nav__brand-dot" aria-hidden="true"></span>
+          <span>KAIRO<span class="text-accent">.LAB</span></span>
+        </a>
+
+        <!-- Desktop Navigation Links -->
+        <div class="sticky-nav__links">
+          <a class="sticky-nav__link active" href="#approach">Подход</a>
+          <a class="sticky-nav__link" href="#projects">Проекты</a>
+          <a class="sticky-nav__link" href="#experience">Опыт</a>
+          <a class="sticky-nav__link" href="#contact">Контакты</a>
+        </div>
+
+        <!-- Right Side: CTA Button & Mobile Burger Toggle -->
+        <div class="sticky-nav__actions">
+          <a class="sticky-nav__cta" href="#contact">Обсудить проект →</a>
+
+          <button type="button" class="sticky-nav__burger" id="burger-btn" aria-label="Открыть навигационное меню" aria-expanded="false" aria-controls="mobile-menu">
+            <span class="burger-line"></span>
+            <span class="burger-line"></span>
+          </button>
+        </div>
+
       </div>
     </nav>
+
+    <!-- High-Tech Mobile Menu Overlay -->
+    <div class="mobile-menu" id="mobile-menu" aria-hidden="true">
+      <div class="mobile-menu__inner">
+        
+        <div class="mobile-menu__status">
+          <div class="pill pill--status">
+            <span class="pill__dot" aria-hidden="true"></span>
+            <span>Доступен для новых проектов</span>
+          </div>
+        </div>
+
+        <nav class="mobile-menu__nav" aria-label="Мобильное меню">
+          <a class="mobile-menu__link" href="#approach">
+            <span class="mobile-menu__link-left">
+              <span class="mobile-menu__link-num">01</span>
+              <span class="mobile-menu__link-text">Подход</span>
+            </span>
+            <span class="mobile-menu__link-arrow">→</span>
+          </a>
+          <a class="mobile-menu__link" href="#projects">
+            <span class="mobile-menu__link-left">
+              <span class="mobile-menu__link-num">02</span>
+              <span class="mobile-menu__link-text">Проекты</span>
+            </span>
+            <span class="mobile-menu__link-arrow">→</span>
+          </a>
+          <a class="mobile-menu__link" href="#experience">
+            <span class="mobile-menu__link-left">
+              <span class="mobile-menu__link-num">03</span>
+              <span class="mobile-menu__link-text">Опыт</span>
+            </span>
+            <span class="mobile-menu__link-arrow">→</span>
+          </a>
+          <a class="mobile-menu__link" href="#contact">
+            <span class="mobile-menu__link-left">
+              <span class="mobile-menu__link-num">04</span>
+              <span class="mobile-menu__link-text">Контакты</span>
+            </span>
+            <span class="mobile-menu__link-arrow">→</span>
+          </a>
+        </nav>
+
+        <div class="mobile-menu__footer">
+          <a href="https://t.me/web_commander" target="_blank" rel="noopener noreferrer" class="btn btn--primary mobile-menu__cta-btn">
+            <span>Написать в Telegram</span>
+            <span class="btn-arrow">→</span>
+          </a>
+
+          <div class="mobile-menu__contacts">
+            <span class="mobile-menu__contacts-label">Прямой контакт:</span>
+            <a href="mailto:jefr.p@yandex.ru" class="mobile-menu__contacts-email">jefr.p@yandex.ru</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
   </header>
 
   <main>

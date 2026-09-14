@@ -6,6 +6,7 @@
 document.addEventListener('DOMContentLoaded', () => {
   initGlitchCycler();
   initStickyNav();
+  initMobileMenu();
   initProjectFilters();
   initClipboardCopy();
   initSmoothScroll();
@@ -48,7 +49,7 @@ function initGlitchCycler() {
 /* -------------------------------------------------------------------------- */
 function initStickyNav() {
   const nav = document.querySelector('.sticky-nav');
-  const navLinks = document.querySelectorAll('.sticky-nav__link');
+  const allNavLinks = document.querySelectorAll('.sticky-nav__link, .mobile-menu__link');
   const sections = document.querySelectorAll('section[id]');
 
   if (!nav) return;
@@ -66,7 +67,7 @@ function initStickyNav() {
       }
     });
 
-    navLinks.forEach(link => {
+    allNavLinks.forEach(link => {
       link.classList.remove('active');
       if (link.getAttribute('href') === `#${currentSectionId}`) {
         link.classList.add('active');
@@ -76,6 +77,46 @@ function initStickyNav() {
 
   window.addEventListener('scroll', handleScroll, { passive: true });
   handleScroll();
+}
+
+/* -------------------------------------------------------------------------- */
+/* 2.1. Mobile Navigation Menu Drawer                                         */
+/* -------------------------------------------------------------------------- */
+function initMobileMenu() {
+  const burgerBtn = document.getElementById('burger-btn');
+  const mobileMenu = document.getElementById('mobile-menu');
+  if (!burgerBtn || !mobileMenu) return;
+
+  const toggleMenu = (open) => {
+    const shouldOpen = typeof open === 'boolean' ? open : !mobileMenu.classList.contains('is-open');
+    burgerBtn.classList.toggle('is-active', shouldOpen);
+    mobileMenu.classList.toggle('is-open', shouldOpen);
+    document.body.classList.toggle('menu-open', shouldOpen);
+    burgerBtn.setAttribute('aria-expanded', String(shouldOpen));
+    mobileMenu.setAttribute('aria-hidden', String(!shouldOpen));
+  };
+
+  burgerBtn.addEventListener('click', () => toggleMenu());
+
+  // Close on menu link click
+  const menuLinks = mobileMenu.querySelectorAll('a');
+  menuLinks.forEach(link => {
+    link.addEventListener('click', () => toggleMenu(false));
+  });
+
+  // Close on Esc key
+  window.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && mobileMenu.classList.contains('is-open')) {
+      toggleMenu(false);
+    }
+  });
+
+  // Close on window resize to desktop
+  window.addEventListener('resize', () => {
+    if (window.innerWidth > 860 && mobileMenu.classList.contains('is-open')) {
+      toggleMenu(false);
+    }
+  });
 }
 
 /* -------------------------------------------------------------------------- */
