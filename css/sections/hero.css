@@ -1,7 +1,7 @@
 .hero {
   position: relative;
-  padding-top: clamp(120px, 16vw, 170px);
-  padding-bottom: clamp(60px, 10vw, 100px);
+  padding-top: 92px;
+  padding-bottom: 64px;
   border-bottom: 1px solid var(--dark-border);
   overflow: hidden;
 }
@@ -11,10 +11,10 @@
   top: 10%;
   left: 50%;
   transform: translateX(-50%);
-  width: 650px;
-  height: 380px;
-  background: radial-gradient(circle, rgba(210, 255, 116, 0.12) 0%, rgba(210, 255, 116, 0.02) 50%, transparent 70%);
-  filter: blur(80px);
+  width: 580px;
+  height: 320px;
+  background: radial-gradient(circle, rgba(210, 255, 116, 0.14) 0%, rgba(210, 255, 116, 0.02) 60%, transparent 80%);
+  filter: blur(70px);
   pointer-events: none;
   animation: ambient-glow 8s ease-in-out infinite;
   z-index: 1;
@@ -24,9 +24,9 @@
   position: relative;
   z-index: 2;
   display: grid;
-  grid-template-columns: 1fr 420px;
-  gap: 48px;
-  align-items: center;
+  grid-template-columns: 1fr 380px;
+  gap: 40px;
+  align-items: start;
 }
 
 .hero__content {
@@ -37,22 +37,19 @@
 .hero__pills {
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 10px;
   flex-wrap: wrap;
-  margin-bottom: 28px;
+  margin-bottom: 24px;
 }
 
 .hero__title {
-  font-size: var(--h1-size);
-  line-height: 1.05;
+  font-family: var(--font-display);
+  font-size: clamp(32px, 4.2vw, 50px);
+  line-height: 1.1;
   color: #fff;
+  font-weight: 900;
+  letter-spacing: -0.025em;
   margin-bottom: 20px;
-  letter-spacing: -0.03em;
-}
-
-.hero__glitch-wrapper {
-  display: block;
-  min-height: 1.15em;
 }
 
 .hero__glitch {
@@ -70,32 +67,32 @@
 }
 
 .hero__desc {
-  font-size: clamp(16px, 1.3vw, 19px);
+  font-size: 16px;
   color: var(--text-muted);
   line-height: 1.65;
-  max-width: 580px;
-  margin-bottom: 36px;
+  max-width: 560px;
+  margin-bottom: 32px;
 }
 
 .hero__actions {
   display: flex;
-  gap: 14px;
+  gap: 12px;
   align-items: center;
   flex-wrap: wrap;
 }
 
-/* Hero Stats / Quick Spec Card */
+/* Hero Stats / Spec Panel (Reference: WebCademy SDD dates panel) */
 .hero__panel {
-  background: rgba(24, 24, 27, 0.6);
+  background: rgba(255, 255, 255, 0.05);
   border: 1px solid var(--dark-border);
-  backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
   border-radius: var(--radius);
-  padding: 32px;
+  padding: 28px;
   display: flex;
   flex-direction: column;
-  gap: 24px;
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+  gap: 20px;
+  box-shadow: 0 16px 36px rgba(0, 0, 0, 0.3);
 }
 
 .hero__panel-header {
@@ -103,12 +100,12 @@
   align-items: center;
   justify-content: space-between;
   border-bottom: 1px solid var(--dark-border);
-  padding-bottom: 16px;
+  padding-bottom: 14px;
 }
 
 .hero__panel-title {
-  font-size: 13px;
-  letter-spacing: 0.08em;
+  font-size: 11px;
+  letter-spacing: 0.1em;
   text-transform: uppercase;
   color: var(--text-subtle);
   font-weight: 700;
@@ -117,18 +114,18 @@
 .hero__spec-item {
   display: flex;
   flex-direction: column;
-  gap: 4px;
+  gap: 3px;
 }
 
 .hero__spec-label {
-  font-size: 12px;
+  font-size: 11px;
   color: var(--text-subtle);
   text-transform: uppercase;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.06em;
 }
 
 .hero__spec-value {
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 600;
   color: #fff;
 }
@@ -143,7 +140,7 @@
 
 .hero__stat-num {
   font-family: var(--font-display);
-  font-size: 28px;
+  font-size: 26px;
   font-weight: 800;
   color: var(--accent);
   line-height: 1;
@@ -153,15 +150,21 @@
 .hero__stat-desc {
   font-size: 12px;
   color: var(--text-muted);
+  line-height: 1.4;
 }
 
-@media (max-width: 980px) {
+@media (max-width: 920px) {
+  .hero {
+    padding-top: 76px;
+    padding-bottom: 48px;
+  }
+
   .hero__grid {
     grid-template-columns: 1fr;
-    gap: 40px;
+    gap: 32px;
   }
 
   .hero__panel {
-    max-width: 500px;
+    max-width: 100%;
   }
 }
