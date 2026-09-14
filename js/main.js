@@ -20,10 +20,10 @@ function initGlitchCycler() {
   if (!glitchEl) return;
 
   const words = [
-    'UI/UX Дизайн',
-    'Front-end',
+    'UI/UX',
     'Дизайн-системы',
-    'Web-продукты'
+    'Web-продукты',
+    'Программы',
   ];
 
   let currentIndex = 0;
