@@ -1,0 +1,67 @@
+.section-light {
+  background: var(--bg);
+  color: var(--text);
+  padding: clamp(64px, 9vw, 108px) 0;
+  border-bottom: 1px solid var(--border);
+  position: relative;
+  z-index: 2;
+}
+
+.pain__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+  margin-top: 44px;
+}
+
+.pain__quote {
+  margin-top: 20px;
+  background: var(--dark);
+  border-radius: var(--radius);
+  padding: 38px 44px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 36px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+}
+
+.pain__quote-text {
+  font-family: var(--font-display);
+  font-size: clamp(20px, 2.3vw, 27px);
+  color: var(--accent);
+  line-height: 1.25;
+  flex: 1;
+  font-weight: 900;
+  letter-spacing: -0.02em;
+}
+
+.pain__quote-text em {
+  font-style: normal;
+  color: #ffffff;
+}
+
+.pain__quote-desc {
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.78);
+  max-width: 380px;
+  line-height: 1.65;
+  flex-shrink: 0;
+}
+
+@media (max-width: 960px) {
+  .pain__grid {
+    grid-template-columns: 1fr;
+  }
+
+  .pain__quote {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 28px 24px;
+    gap: 20px;
+  }
+
+  .pain__quote-desc {
+    max-width: 100%;
+  }
+}

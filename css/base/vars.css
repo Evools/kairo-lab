@@ -1,0 +1,40 @@
+:root {
+  /* Light Theme Surfaces (Reference: WebCademy SDD) */
+  --bg: #F7F6F2;
+  --surface: #EDECEA;
+  --surface-hover: #E4E2DC;
+  --white: #FFFFFF;
+  --border: rgba(24, 24, 27, 0.1);
+  --border-subtle: rgba(24, 24, 27, 0.06);
+
+  /* Dark Theme Surfaces (Hero & CTA) */
+  --black: #0E0E10;
+  --dark: #18181B;
+  --dark2: #27272A;
+  --dark3: #222225;
+  --dark-border: rgba(255, 255, 255, 0.1);
+  --dark-border-hover: rgba(255, 255, 255, 0.2);
+
+  /* Electric Accent (Acid Lime) */
+  --accent: #D2FF74;
+  --accent-hover: #C5F55A;
+  --accent-glow: rgba(210, 255, 116, 0.18);
+  --accent-contrast: #18181B;
+
+  /* Typography Colors */
+  --text: #18181B;
+  --muted: #555451;
+  --text-light: #FFFFFF;
+  --text-light-muted: rgba(255, 255, 255, 0.65);
+  --text-light-subtle: rgba(255, 255, 255, 0.4);
+
+  /* Fonts */
+  --font-display: 'Unbounded', sans-serif;
+  --font-body: 'Onest', -apple-system, BlinkMacSystemFont, sans-serif;
+
+  /* Sizing & Radii */
+  --radius: 20px;
+  --radius-sm: 12px;
+  --radius-pill: 9999px;
+  --container-max: 1160px;
+}

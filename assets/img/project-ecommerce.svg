@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" fill="none">
+  <rect width="800" height="450" fill="#121216"/>
+  <!-- Minimalist grid -->
+  <rect x="60" y="40" width="680" height="370" rx="16" fill="#18181F" stroke="rgba(255,255,255,0.08)"/>
+  
+  <!-- Header bar -->
+  <text x="90" y="82" fill="#FFFFFF" font-family="sans-serif" font-weight="800" font-size="20">KINETIC.LAB</text>
+  <rect x="480" y="68" width="120" height="24" rx="12" fill="#22222B"/>
+  <rect x="620" y="68" width="90" height="24" rx="12" fill="#D2FF74"/>
+  <text x="642" y="84" fill="#121215" font-family="sans-serif" font-weight="700" font-size="11">CART (2)</text>
+
+  <!-- Product Item 1 -->
+  <rect x="90" y="120" width="190" height="250" rx="12" fill="#202028" stroke="rgba(255,255,255,0.06)"/>
+  <rect x="110" y="140" width="150" height="130" rx="8" fill="#15151A"/>
+  <circle cx="185" cy="205" r="40" fill="none" stroke="#D2FF74" stroke-width="2" stroke-dasharray="4 4"/>
+  <text x="110" y="300" fill="#FFFFFF" font-family="sans-serif" font-weight="600" font-size="14">Cyber Audio Headset</text>
+  <text x="110" y="322" fill="rgba(255,255,255,0.4)" font-family="sans-serif" font-size="12">Spatial 3D Sound</text>
+  <text x="110" y="352" fill="#D2FF74" font-family="sans-serif" font-weight="700" font-size="16">$320.00</text>
+
+  <!-- Product Item 2 -->
+  <rect x="305" y="120" width="190" height="250" rx="12" fill="#202028" stroke="rgba(255,255,255,0.06)"/>
+  <rect x="325" y="140" width="150" height="130" rx="8" fill="#15151A"/>
+  <rect x="365" y="170" width="70" height="70" rx="12" fill="rgba(210,255,116,0.12)" stroke="#D2FF74"/>
+  <text x="325" y="300" fill="#FFFFFF" font-family="sans-serif" font-weight="600" font-size="14">Modular Keychron</text>
+  <text x="325" y="322" fill="rgba(255,255,255,0.4)" font-family="sans-serif" font-size="12">Hot-swap Gateron</text>
+  <text x="325" y="352" fill="#D2FF74" font-family="sans-serif" font-weight="700" font-size="16">$189.00</text>
+
+  <!-- Product Item 3 -->
+  <rect x="520" y="120" width="190" height="250" rx="12" fill="#202028" stroke="rgba(255,255,255,0.06)"/>
+  <rect x="540" y="140" width="150" height="130" rx="8" fill="#15151A"/>
+  <path d="M590 220 L615 170 L640 220 Z" fill="rgba(210,255,116,0.2)" stroke="#D2FF74" stroke-width="2"/>
+  <text x="540" y="300" fill="#FFFFFF" font-family="sans-serif" font-weight="600" font-size="14">Ergonomic Mouse</text>
+  <text x="540" y="322" fill="rgba(255,255,255,0.4)" font-family="sans-serif" font-size="12">26k DPI Wireless</text>
+  <text x="540" y="352" fill="#D2FF74" font-family="sans-serif" font-weight="700" font-size="16">$119.00</text>
+</svg>

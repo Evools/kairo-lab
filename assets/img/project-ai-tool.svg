@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" fill="none">
+  <rect width="800" height="450" fill="#121217"/>
+  <rect x="50" y="30" width="700" height="390" rx="16" fill="#191921" stroke="rgba(255,255,255,0.08)"/>
+
+  <text x="80" y="75" fill="#FFFFFF" font-family="sans-serif" font-weight="800" font-size="20">NEXUS AI PROMPT STUDIO</text>
+  <text x="80" y="98" fill="rgba(255,255,255,0.5)" font-family="sans-serif" font-size="12">Visual LLM Workflow Orchestrator &amp; Pipeline Runner</text>
+
+  <!-- Node 1: Input -->
+  <rect x="90" y="160" width="160" height="110" rx="12" fill="#22222D" stroke="rgba(210,255,116,0.4)"/>
+  <rect x="105" y="175" width="20" height="20" rx="6" fill="#D2FF74"/>
+  <text x="135" y="190" fill="#FFFFFF" font-family="sans-serif" font-weight="700" font-size="13">Input Prompt</text>
+  <text x="105" y="225" fill="rgba(255,255,255,0.4)" font-family="sans-serif" font-size="11">User context payload</text>
+  <circle cx="250" cy="215" r="5" fill="#D2FF74"/>
+
+  <!-- Connecting bezier -->
+  <path d="M250 215 C 290 215, 300 215, 340 215" stroke="#D2FF74" stroke-width="2" stroke-dasharray="4 4"/>
+
+  <!-- Node 2: Transform / Model -->
+  <rect x="340" y="140" width="180" height="150" rx="12" fill="#22222D" stroke="rgba(255,255,255,0.12)"/>
+  <rect x="355" y="155" width="20" height="20" rx="6" fill="#A855F7"/>
+  <text x="385" y="170" fill="#FFFFFF" font-family="sans-serif" font-weight="700" font-size="13">Gemini 1.5 Pro</text>
+  <rect x="355" y="190" width="150" height="26" rx="6" fill="#171720"/>
+  <text x="365" y="207" fill="#D2FF74" font-family="monospace" font-size="10">temp: 0.2, top_p: 0.95</text>
+  <circle cx="520" cy="215" r="5" fill="#D2FF74"/>
+
+  <!-- Connecting bezier -->
+  <path d="M520 215 C 550 215, 560 215, 590 215" stroke="#D2FF74" stroke-width="2"/>
+
+  <!-- Node 3: Structured Output -->
+  <rect x="590" y="160" width="140" height="110" rx="12" fill="#22222D" stroke="rgba(56,189,248,0.4)"/>
+  <rect x="605" y="175" width="20" height="20" rx="6" fill="#38BDF8"/>
+  <text x="635" y="190" fill="#FFFFFF" font-family="sans-serif" font-weight="700" font-size="13">JSON Schema</text>
+  <text x="605" y="225" fill="rgba(255,255,255,0.4)" font-family="sans-serif" font-size="11">Type-safe response</text>
+
+  <!-- Bottom Execution Console -->
+  <rect x="90" y="320" width="640" height="60" rx="8" fill="#141419" stroke="rgba(255,255,255,0.06)"/>
+  <text x="110" y="354" fill="#4ADE80" font-family="monospace" font-size="12">✓ Execution complete in 248ms | Tokens: 482 | Status: 200 OK</text>
+</svg>

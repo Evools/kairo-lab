@@ -1,0 +1,27 @@
+/* 1. Base Layer */
+@import url('./base/fonts.css');
+@import url('./base/vars.css');
+@import url('./base/reset.css');
+@import url('./base/base.css');
+
+/* 2. Utilities & Keyframes */
+@import url('./utils/animations.css');
+
+/* 3. Reusable UI Blocks */
+@import url('./blocks/sticky-nav.css');
+@import url('./blocks/section-heading.css');
+@import url('./blocks/pills.css');
+@import url('./blocks/btn.css');
+@import url('./blocks/card.css');
+@import url('./blocks/pain-card.css');
+@import url('./blocks/faq-item.css');
+@import url('./blocks/badges.css');
+
+/* 4. Page Sections */
+@import url('./sections/hero.css');
+@import url('./sections/pain.css');
+@import url('./sections/projects.css');
+@import url('./sections/skills.css');
+@import url('./sections/timeline.css');
+@import url('./sections/contact.css');
+@import url('./sections/footer.css');

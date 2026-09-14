@@ -1,0 +1,134 @@
+.contact {
+  padding: clamp(60px, 8vw, 100px) 0;
+  border-bottom: 1px solid var(--dark-border);
+}
+
+.contact__card {
+  background: radial-gradient(circle at 100% 0%, rgba(210, 255, 116, 0.08) 0%, transparent 60%), var(--dark-surface);
+  border: 1px solid var(--dark-border);
+  border-radius: var(--radius);
+  padding: clamp(32px, 5vw, 56px);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 48px;
+  align-items: center;
+}
+
+.contact__content {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact__title {
+  font-size: var(--h2-size);
+  color: #fff;
+  margin-bottom: 16px;
+}
+
+.contact__desc {
+  font-size: 16px;
+  color: var(--text-muted);
+  line-height: 1.6;
+  margin-bottom: 32px;
+}
+
+.contact__methods {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.contact__method {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid var(--dark-border);
+  border-radius: var(--radius-sm);
+  padding: 16px 20px;
+  text-decoration: none;
+  color: #fff;
+  transition: all 0.25s ease;
+  cursor: pointer;
+}
+
+.contact__method:hover {
+  background: rgba(255, 255, 255, 0.07);
+  border-color: rgba(255, 255, 255, 0.2);
+  transform: translateX(4px);
+}
+
+.contact__method-left {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.contact__method-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  background: rgba(210, 255, 116, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--accent);
+}
+
+.contact__method-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact__method-name {
+  font-size: 13px;
+  color: var(--text-subtle);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.contact__method-val {
+  font-size: 15px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.contact__method-action {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--accent);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+/* Toast Notification */
+.toast {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  z-index: 1000;
+  background: var(--dark-surface);
+  border: 1px solid var(--accent);
+  border-radius: var(--radius-sm);
+  padding: 14px 20px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.5);
+  animation: toast-in 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.toast.hide {
+  animation: toast-out 0.3s ease forwards;
+}
+
+@media (max-width: 860px) {
+  .contact__card {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+}

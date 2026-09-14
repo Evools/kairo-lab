@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" fill="none">
+  <rect width="800" height="450" fill="#15151A"/>
+  <rect x="50" y="30" width="700" height="390" rx="16" fill="#1C1C22" stroke="rgba(255,255,255,0.08)"/>
+  
+  <text x="80" y="75" fill="#FFFFFF" font-family="sans-serif" font-weight="800" font-size="20">PRISM.UI DESIGN SYSTEM</text>
+  <text x="80" y="98" fill="#D2FF74" font-family="sans-serif" font-weight="600" font-size="12">Tokens, Multi-brand Themes &amp; Accessible Components</text>
+
+  <!-- Color Tokens row -->
+  <circle cx="95" cy="145" r="18" fill="#D2FF74"/>
+  <circle cx="145" cy="145" r="18" fill="#4ADE80"/>
+  <circle cx="195" cy="145" r="18" fill="#38BDF8"/>
+  <circle cx="245" cy="145" r="18" fill="#A855F7"/>
+  <circle cx="295" cy="145" r="18" fill="#F43F5E"/>
+  <circle cx="345" cy="145" r="18" fill="#121215" stroke="rgba(255,255,255,0.3)"/>
+
+  <!-- Component Box 1: Buttons -->
+  <rect x="80" y="190" width="300" height="200" rx="12" fill="#23232B" stroke="rgba(255,255,255,0.06)"/>
+  <text x="100" y="222" fill="#FFFFFF" font-family="sans-serif" font-weight="700" font-size="14">Button Variants</text>
+  
+  <rect x="100" y="240" width="120" height="38" rx="19" fill="#D2FF74"/>
+  <text x="125" y="264" fill="#121215" font-family="sans-serif" font-weight="700" font-size="12">Primary Btn</text>
+
+  <rect x="235" y="240" width="120" height="38" rx="19" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.2)"/>
+  <text x="260" y="264" fill="#FFFFFF" font-family="sans-serif" font-weight="600" font-size="12">Ghost Btn</text>
+
+  <rect x="100" y="295" width="255" height="38" rx="8" fill="#17171D" stroke="rgba(255,255,255,0.1)"/>
+  <text x="115" y="319" fill="rgba(255,255,255,0.4)" font-family="sans-serif" font-size="12">Search design tokens...</text>
+
+  <rect x="100" y="348" width="60" height="24" rx="12" fill="rgba(210,255,116,0.15)"/>
+  <text x="114" y="364" fill="#D2FF74" font-family="sans-serif" font-size="10" font-weight="600">Active</text>
+
+  <!-- Component Box 2: Spec / Code Preview -->
+  <rect x="405" y="190" width="315" height="200" rx="12" fill="#121215" stroke="rgba(255,255,255,0.06)"/>
+  <text x="425" y="222" fill="rgba(255,255,255,0.4)" font-family="monospace" font-size="12">// Token Definition</text>
+  <text x="425" y="250" fill="#D2FF74" font-family="monospace" font-size="12">--color-brand-primary: #D2FF74;</text>
+  <text x="425" y="275" fill="#38BDF8" font-family="monospace" font-size="12">--radius-pill: 9999px;</text>
+  <text x="425" y="300" fill="#A855F7" font-family="monospace" font-size="12">--font-family: 'Unbounded';</text>
+  <text x="425" y="335" fill="rgba(255,255,255,0.7)" font-family="monospace" font-size="12">export const Button = () =&gt; ...</text>
+</svg>
